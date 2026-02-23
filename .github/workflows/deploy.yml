@@ -18,5 +18,5 @@ jobs:
           server: ftp.2503992.linux.studentwebserver.co.uk
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./                             # local repo root
+          local-dir: ./                             # local repo root/
           server-dir: /public_html/HavenGuestHouse/ # must end with /
