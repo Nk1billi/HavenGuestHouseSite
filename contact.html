@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Haven Guest House | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="material-symbols-outlined">home</span>
+                <span class="logo-text">Haven Guest House</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">
+                        <span class="material-symbols-outlined">home</span>
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <span class="material-symbols-outlined">info</span>
+                        <span class="nav-text">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html#gallery">
+                        <span class="material-symbols-outlined">photo_library</span>
+                        <span class="nav-text">Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" aria-current="page">
+                        <span class="material-symbols-outlined">mail</span>
+                        <span class="nav-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="contact-page-title">Contact Us</h1>
+
+        <section class="contact-container">
+            <div class="contact-form-section">
+                <h2>Send us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input id="name" type="text" placeholder="Your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input id="email" type="email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" rows="6" placeholder="Tell us about your inquiry or booking request..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="primary-btn">Submit Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info-section">
+                <h2>Get in Touch</h2>
+
+                <div class="contact-info-item">
+                    <div class="info-icon">
+                        <span class="material-symbols-outlined">location_on</span>
+                    </div>
+                    <div class="info-content">
+                        <h3>Address</h3>
+                        <p>123 Haven Street, Downtown District, City 12345</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="info-icon">
+                        <span class="material-symbols-outlined">call</span>
+                    </div>
+                    <div class="info-content">
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="info-icon">
+                        <span class="material-symbols-outlined">mail</span>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>info@havenguesthouse.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="info-icon">
+                        <span class="material-symbols-outlined">schedule</span>
+                    </div>
+                    <div class="info-content">
+                        <h3>Hours</h3>
+                        <p>Check-in: 2:00 PM | Check-out: 11:00 AM</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5432889729154!2d-0.12775492346721598!3d51.50735097181439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1709427800000!5m2!1sen!2s"
+                        width="100%" height="250" style="border:0; border-radius: 8px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 Haven Guest House. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="#" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
